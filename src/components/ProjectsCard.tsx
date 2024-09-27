@@ -5,14 +5,16 @@ interface Props {
   title: string;
   des: string;
   src: string;
+link: string;
+pdf?: boolean;
 }
 
-const ProjectsCard = ({ title, des, src }: Props) => {
+const ProjectsCard = ({ title, des, src, link, pdf=true }: Props) => {
   return (
     <div className="w-full p-4 xl:px-12 h-auto xl:py-10 rounded-lg shadow-shadowOne flex flex-col bg-gradient-to-r from-bodyColor to-[#202327] group hover:bg-gradient-to-b hover:from-gray-900 hover:gray-900 transition-colors duration-1000">
       <div className="w-full h-[80%] overflow-hidden rounded-lg">
         <img
-          className="w-full h-60 object-cover group-hover:scale-110 duration-300 cursor-pointer"
+          className="w-full h-60 object-cover group-hover:scale-110 duration-300"
           src={src}
           alt="src"
         />
@@ -23,7 +25,7 @@ const ProjectsCard = ({ title, des, src }: Props) => {
             <h3 className="text-base uppercase text-designColor font-normal">
               {title}
             </h3>
-            <div className="flex gap-2">
+            {/* <div className="flex gap-2">
               <a href="https://github.com/noorjsdivs" target="_blank">
                 <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
                   <BsGithub />
@@ -34,11 +36,16 @@ const ProjectsCard = ({ title, des, src }: Props) => {
                   <FaYoutube />
                 </span>
               </a>
-            </div>
+            </div> */}
           </div>
           <p className="text-sm tracking-wide mt-3 hover:text-gray-100 duration-300">
             {des}
           </p>
+          { pdf?
+            <a style={{color:"yellow", textDecoration:"underline"}} href={link} target="_blank" download>See project</a>
+            : 
+            <a style={{color:"yellow", textDecoration:"underline"}} href={link} target="_blank">Go to site</a>
+            }
         </div>
       </div>
     </div>

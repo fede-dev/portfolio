@@ -18,10 +18,25 @@ const Resume = () => {
     >
       <FadeIn>
         <div className="flex justify-center items-center text-center">
-          <Title title="7+ YEARS OF EXPERIENCE" des="My Resume" />
+          <Title title="EXPERIENCIA" des="Resumen" />
         </div>
         <div>
-          <ul className="w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4">
+          <ul className="">
+          <li
+              onClick={() => {
+                setEducationData(false);
+                setSkillData(false);
+                setExperienceData(true);
+                setAchievementData(false);
+              }}
+              className={`${
+                experienceData
+                  ? "border-designColor rounded-lg"
+                  : "border-transparent"
+              } resumeLi`}
+            >
+              Experiencia
+            </li>
             <li
               onClick={() => {
                 setEducationData(true);
@@ -35,9 +50,9 @@ const Resume = () => {
                   : "border-transparent"
               } resumeLi`}
             >
-              Education
+              Educación
             </li>
-            <li
+            {/* <li
               onClick={() => {
                 setEducationData(false);
                 setSkillData(true);
@@ -51,23 +66,9 @@ const Resume = () => {
               } resumeLi`}
             >
               Professional Skills
-            </li>
-            <li
-              onClick={() => {
-                setEducationData(false);
-                setSkillData(false);
-                setExperienceData(true);
-                setAchievementData(false);
-              }}
-              className={`${
-                experienceData
-                  ? "border-designColor rounded-lg"
-                  : "border-transparent"
-              } resumeLi`}
-            >
-              Experience
-            </li>
-            <li
+            </li> */}
+        
+            {/* <li
               onClick={() => {
                 setEducationData(false);
                 setSkillData(false);
@@ -81,7 +82,7 @@ const Resume = () => {
               } resumeLi`}
             >
               Achievements
-            </li>
+            </li> */}
           </ul>
         </div>
         {educationData && <Education />}
