@@ -1,5 +1,5 @@
-import { FaFacebookF, FaLinkedinIn, FaYoutube } from "react-icons/fa";
-import { logo } from "../assets";
+//import { FaFacebookF, FaLinkedinIn, FaYoutube } from "react-icons/fa";
+//import { logo } from "../assets";
 import { FadeIn } from "./FadeIn";
 
 const Footer = () => {
