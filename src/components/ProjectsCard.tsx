@@ -42,9 +42,9 @@ const ProjectsCard = ({ title, des, src, link, pdf=true }: Props) => {
             {des}
           </p>
           { pdf?
-            <a style={{color:"yellow", textDecoration:"underline"}} href={link} target="_blank" download>See project</a>
+            <a style={{color:"yellow", textDecoration:"underline"}} href={link} target="_blank" download>Descargar</a>
             : 
-            <a style={{color:"yellow", textDecoration:"underline"}} href={link} target="_blank">Go to site</a>
+            <a style={{color:"yellow", textDecoration:"underline"}} href={link} target="_blank">Ir al sitio</a>
             }
         </div>
       </div>

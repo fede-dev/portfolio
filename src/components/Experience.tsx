@@ -24,7 +24,7 @@ const Experience = () => {
             title="Desarrollador Backend"
             subTitle="Naranja X"
             result="Argentina"
-            des="Desarrollé soluciones backend eficientes y escalables, gestionando el diseño, la implementación y la integración de sistemas y APIs, optimizando el rendimiento y asegurando la calidad del código para aplicaciones web y móviles.."
+            des="Desarrollé soluciones backend eficientes y escalables, gestionando el diseño, la implementación y la integración de sistemas y APIs, optimizando el rendimiento y asegurando la calidad del código para aplicaciones web y móviles."
           />
           <ResumeCard
             title="Freelance"
@@ -38,7 +38,6 @@ const Experience = () => {
             result="Madrid"
             des="Desarrollo conceptos originales y redacto textos persuasivos para diversas plataformas, colaborando con el equipo creativo y asegurando la alineación con la estrategia de marca."
           />
-       
         </div>
       </div>
       {/* <div>

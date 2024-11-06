@@ -25,8 +25,8 @@ const Feature = () => {
             icon={<AiFillAppstore />}
           />
           <Card
-            title="Digital Marketing"
-            des="SEM, SEO, Content Marketing, Analytics, Social Media Marketing."
+            title="Ux Research"
+            des="."
             icon={<SiProgress />}
           />
           <Card
@@ -34,11 +34,11 @@ const Feature = () => {
             des="Desarrollo, lanzamiento y mejora continua de un producto, alineando las necesidades del mercado y los objetivos del negocio para asegurar su éxito."
             icon={<FaMobile />}
           />
-             <Card
+             {/* <Card
             title="Creative copywriter"
             des="Creación de conceptos, titulares y contenido para conectar marcas con su audencia."
             icon={<FaGlobe />}
-          />
+          /> */}
           <Card
             title="Full stack developer"
             des="Desarrollador full-stack de web-apps con JavaScript."

@@ -25,7 +25,7 @@ const LeftBanner = () => {
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wider">
         MI ENFOQUE ES LA FUSIÓN DE PLANIFICACIÓN ESTRATÉGICA, CREATIVIDAD Y TECNOLOGÍA
-        PARA LLEVAR A CABO PROYECTOS INNOVADORES CREANDO VINCULOS POSITIVOS ENTRE MARCAS Y AUDIENCIAS.  
+        PARA LLEVAR A CABO PROYECTOS INNOVADORES CREANDO VÍNCULOS POSITIVOS ENTRE MARCAS Y AUDIENCIAS.  
         </p>
       </div>
       <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
