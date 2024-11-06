@@ -27,14 +27,14 @@ const Projects = () => {
             title="ESCAPARATE Benchmark"
             des="Investigación de consumidor, análisis de mercado y de la competencia para crear una startup."
             src={projectOne}
-            link="/assets/pdf/esc_pm.pdf"
+            link="/src/assets/pdf/esc_pm.pdf"
             
           />
             <ProjectsCard
             title="Escaparate Brand"
             des="Creación de marca y concepto a partir de modelo negocio y diferencial de marca."
             src={projectTwo}
-            link="/assets/pdf/esc_planning.pdf"
+            link="/src/assets/pdf/esc_planning.pdf"
           />
             <ProjectsCard
             title="Escaparate site"
@@ -47,19 +47,19 @@ const Projects = () => {
             title="Rey León"
             des="ING Direct sortea entradas para que sus clientes puedan disfrutar de la obra El Rey León en el teatro."
             src={projectFour}
-            link="/assets/pdf/ing_.pdf"
+            link="/src/assets/pdf/ing_.pdf"
           />
           <ProjectsCard
             title="El País"
             des="Activación website portal Ovación para Mundial de fútbol."
             src={projectFive}
-            link="/assets/pdf/elpais_.pdf"
+            link="/src/assets/pdf/elpais_.pdf"
           />
           <ProjectsCard
             title="Dove Men Care"
             des="Activación Dove Men Care para potenciar y motivar a los usurarios en los gimnasios."
             src={projectSix}
-            link="/assets/pdf/dove_men_care.pdf"
+            link="/src/assets/pdf/dove_men_care.pdf"
           />
         </div>
       </FadeIn>
