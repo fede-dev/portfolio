@@ -26,7 +26,7 @@ const Feature = () => {
           />
           <Card
             title="Ux Research"
-            des="Como UX Writer, redacto textos orientados al usuario que facilitan la navegación en plataformas digitales, asegurando una experiencia fluida y alineada con la identidad de la marca."
+            des="Como UX Research investigo y analizo las necesidades y comportamientos de los usuarios para mejorar su experiencia con productos o servicios."
             icon={<SiProgress />}
           />
           <Card

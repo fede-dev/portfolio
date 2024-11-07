@@ -48,7 +48,7 @@ const Contact = () => {
   //   }
   // };
   return (
-    <section
+    <section style={{marginTop:"140px"}}
       id="contact"
       className="w-full py-20 border-b-[1px] border-b-gray-700"
     >

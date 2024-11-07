@@ -57,7 +57,7 @@ const Projects = () => {
           />
           <ProjectsCard
             title="Dove Men Care"
-            des="Activación Dove Men Care para potenciar y motivar a los usurarios en los gimnasios."
+            des="Activación Dove Men Care para potenciar y motivar a los usuarios en los gimnasios."
             src={projectSix}
             link="/pdf/dove_men_care.pdf"
           />
