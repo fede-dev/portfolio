@@ -50,10 +50,10 @@ const Projects = () => {
             link="/pdf/ing_.pdf"
           />
           <ProjectsCard
-            title="El País"
-            des="Activación website portal Ovación para Mundial de fútbol."
+            title="FARMACITY"
+            des="Contenido para RRSS insights del consumidor."
             src={projectFive}
-            link="/pdf/elpais_.pdf"
+            link="/pdf/FARMACITY.pdf"
           />
           <ProjectsCard
             title="Dove Men Care"
