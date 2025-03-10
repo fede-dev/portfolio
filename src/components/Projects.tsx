@@ -37,11 +37,11 @@ const Projects = () => {
             link="/pdf/esc_planning.pdf"
           />
             <ProjectsCard
-            title="Escaparate site"
-            des="Coding, UX Writing e interfaces creando interacción positiva con los usuarios."
+            title="OSDE"
+            des="Cibercondría: No todo lo que lees en internet es cierto."
             src={projectThree}
-            link="https://escaparate.com.ar"
-            pdf={false}
+             link="/pdf/OSDE.pdf"
+          
           />
           <ProjectsCard
             title="Rey León"
