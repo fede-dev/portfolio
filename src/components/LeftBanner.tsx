@@ -6,7 +6,7 @@ import { FadeIn } from "./FadeIn";
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
-    words: ["Planner Creativo.", "Product Manager", "Full Stack Developer."],
+    words: ["Planner creativo", "Redactor creativo", "Marketing digital"],
     loop: true,
     typeSpeed: 20,
     deleteSpeed: 10,
@@ -17,10 +17,10 @@ const LeftBanner = () => {
       <div className="flex flex-col gap-5">
         {/* <h4 className=" text-lg font-normal">FEDERICO ENRIQUEZ</h4> */}
         <h1 className="text-6xl font-bold text-white">
-          Hola, soy <span className="text-designColor capitalize">Fede</span>
+          Hola, soy <span className="text-designColor capitalize">Fede:</span>
         </h1>
         <h2 className="text-4xl font-bold text-white">
-          a <span>{text}</span>
+          <span>{text}</span>
           <Cursor cursorStyle="|" cursorColor="#ff014f" />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wider">

@@ -14,37 +14,26 @@ const Feature = () => {
       <FadeIn>
         <Title title="Features" des="Skills" />
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-20">
-          {/* <Card
-            title="Business Strategy"
-            des="Analizar el mercado, identificar oportunidades y crear estrategias para mantener una ventaja competitiva."
-            icon={null}
-          /> */}
           <Card
             title="Creative Planner"
-            des="Estrategias de comunicación basadas en insights del consumidor, investigación y análisis."
+            des="Estrategias de comunicación basadas en insights, investigación y análisis."
             icon={<AiFillAppstore />}
           />
           <Card
-            title="Ux Research"
-            des="Como UX Research investigo y analizo las necesidades y comportamientos de los usuarios para mejorar su experiencia con productos o servicios."
+            title="Creative Copywriter"
+            des="Creación de conceptos para conectar marcas con su audencia."
             icon={<SiProgress />}
+          />
+            <Card
+            title="Marketing Digital"
+            des="Creación de estrategias para atraer, convertir y fidelizar."
+            icon={<SiAntdesign />}
           />
           <Card
             title="Product Manager"
-            des="Desarrollo, lanzamiento y mejora continua de un producto, alineando las necesidades del mercado y los objetivos del negocio para asegurar su éxito."
+            des="Desarrollo, lanzamiento y mejora continua, alineando las necesidades del mercado y objetivos."
             icon={<FaMobile />}
           />
-             {/* <Card
-            title="Creative copywriter"
-            des="Creación de conceptos, titulares y contenido para conectar marcas con su audencia."
-            icon={<FaGlobe />}
-          /> */}
-          <Card
-            title="Full stack developer"
-            des="Desarrollador full-stack de web-apps con JavaScript."
-            icon={<SiAntdesign />}
-          />
-       
         </div>
       </FadeIn>
     </section>
